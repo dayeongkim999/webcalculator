@@ -1,0 +1,41 @@
+h1{
+    margin:0;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+  margin: 10px 0px 0px 10px;
+}
+
+.button_num{
+    width: 70px;
+    height: 75px;
+    background-color: #F5F5F5;
+    border-radius: 10%;
+    border-color: #2C3539;
+    font-size: 180%;
+}
+
+
+.button_oper{
+    width: 70px;
+    height: 75px;
+    background-color: #F5F5F5;
+    border-radius: 10%;
+    border-color: #2C3539;
+    font-size: 180%;
+
+}
+
+.display{
+    border: 2px solid #2C3539;
+    background-color: #F5F5F5;
+    width: 296px;
+    height: 60px;
+    font-size: 180%;
+}

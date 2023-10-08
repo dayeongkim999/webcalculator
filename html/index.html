@@ -2,9 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="C:/Users/82102/Desktop/json/webcalculator/css/main.css">
 </head>
 <body>
-
+    <div>
+        <h1>Web Calculator</h1>
+    </div>
+    <div class="container" style="margin-top: 10px;">
+    <div>
+        <div class="display">
+            <p class="text"></p>
+        </div>
+        <div style="margin-top: 10px; margin-bottom: 10px;">
+            <input type="button" class="button_num" value="1" onclick="num(1)"/>
+            <input type="button" class="button_num" value="2" onclick="num(2)"/>
+            <input type="button" class="button_num" value="3" onclick="num(3)"/>
+            <input type="button" class="button_oper" value="+" onclick="operators('+')"/>
+        </div>
+        <div style="margin-bottom: 10px;">
+            <input type="button" class="button_num" value="4" onclick="num(4)"/>
+            <input type="button" class="button_num" value="5" onclick="num(5)"/>
+            <input type="button" class="button_num" value="6" onclick="num(6)"/>
+            <input type="button" class="button_oper" value="-" onclick="operators('-')"/>
+        </div>
+        <div style="margin-bottom: 10px;">
+            <input type="button" class="button_num" value="7" onclick="num(7)"/>
+            <input type="button" class="button_num" value="8" onclick="num(8)"/>
+            <input type="button" class="button_num" value="9" onclick="num(9)"/>
+            <input type="button" class="button_oper" value="*" onclick="operators('*')"/>
+        </div>
+        <div>
+            <input type="button" class="button_num" value="c" onclick="cls()"/>
+            <input type="button" class="button_num" value="0" onclick="num(0)"/>
+            <input type="button" class="button_oper" value="=" onclick="cal()"/>
+            <input type="button" class="button_oper" value="/" onclick="operators('/')"/>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="C:\Users\82102\Desktop\json\webcalculator\js\main.js"></script>
 </body>
 </html>
